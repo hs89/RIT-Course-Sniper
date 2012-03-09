@@ -1,5 +1,5 @@
 require 'mechanize'
-require 'Highline/Import'
+require 'highline/import'
 
 @myuser = ask("SIS Username:  ") { |user| user.default = "sisuser" }
 @mypass = ask("SIS Password:  ") { |pass| pass.echo = false }
