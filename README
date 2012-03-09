@@ -1,0 +1,11 @@
+Created this ruby script because my unmet needs for course registration have not been met in the past month.
+
+Sniper.rb will prompt for username and password and course number
+
+After providing the necessary info, it checks the open/close course list and checks for a free spot in the desired course every 3 seconds
+
+If there is a free space in the course, it logs into SIS using your provided info and registers the course through the quick add/drop form
+
+Example use case: If someone is playing with their schedule and drops their spot in a full course for at least 3 seconds, this script steals their spot.
+
+Enjoy!
