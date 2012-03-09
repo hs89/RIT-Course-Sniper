@@ -1,5 +1,7 @@
 Created this ruby script because my unmet needs for course registration have not been met in the past month.
 
+Required gems: mechanize, highline
+
 Sniper.rb will prompt for username and password and course number
 
 After providing the necessary info, it checks the open/close course list and checks for a free spot in the desired course every 3 seconds
