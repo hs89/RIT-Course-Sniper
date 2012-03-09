@@ -1,7 +1,7 @@
 require 'mechanize'
 require 'Highline/Import'
 
-@myuser = ask("SIS Username:  ") { |user| user.default = "has2265" }
+@myuser = ask("SIS Username:  ") { |user| user.default = "sisuser" }
 @mypass = ask("SIS Password:  ") { |pass| pass.echo = false }
 
 @count_attempts = 0
