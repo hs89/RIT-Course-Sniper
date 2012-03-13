@@ -66,7 +66,12 @@ loop do
   puts "Currently enrolled: " + currently_enrolled
   puts "Max enrolled: " + max_enrolled
   puts "Attempt: " + @count_attempts.to_s
-  puts "System time: " + Time.now.to_s
+  
+  sys_time = Time.now
+  #bugfix: in the middle of the night sometimes Time.now returns nil.. no idea why.. dont really care
+  if (sys_time != nil)
+    puts "System time: " + sys_time.to_s  
+  end
   
 =begin
     Now that we know the number of students enrolled
